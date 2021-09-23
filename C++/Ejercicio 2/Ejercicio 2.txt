@@ -1,0 +1,19 @@
+int numeroA, indice, acumulador = 0, contador =0;
+double promedio;
+
+for(indice =0 ; indice<20 ; indice ++)
+{
+cout << " ingrese un numero " << endl;
+cin >> numeroA;
+
+///acumulador
+///acumulador = acumulador + numeroA;
+acumulador += numeroA ;
+contador++;
+
+}
+
+
+promedio = double (acumulador)/contador;
+        //cast estatico
+cout << "promedio" << promedio;
